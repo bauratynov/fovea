@@ -29,12 +29,10 @@ jobs:
       - name: go vet
         run: go vet ./...
 
-      - name: go build
+      - name: go build (CGO-free)
         env:
           CGO_ENABLED: 0
         run: go build ./...
 
-      - name: go test
-        env:
-          CGO_ENABLED: 0
+      - name: go test (with race detector)
         run: go test -race -count=1 ./...
