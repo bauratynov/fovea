@@ -1,5 +1,12 @@
 # Fovea — Perceptual JND Model for Video Coding
 
+[![CI](https://github.com/bauratynov/fovea/actions/workflows/ci.yml/badge.svg)](https://github.com/bauratynov/fovea/actions/workflows/ci.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/bauratynov/fovea.svg)](https://pkg.go.dev/github.com/bauratynov/fovea)
+[![Go Report Card](https://goreportcard.com/badge/github.com/bauratynov/fovea)](https://goreportcard.com/report/github.com/bauratynov/fovea)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/bauratynov/fovea)](https://go.dev)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Stars](https://img.shields.io/github/stars/bauratynov/fovea?style=social)](https://github.com/bauratynov/fovea/stargazers)
+
 > *What the fovea can't see, the bitstream doesn't need to carry.*
 
 Fovea is a Just-Noticeable Difference (JND) model that predicts, for every
