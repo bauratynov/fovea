@@ -1,0 +1,26 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+/fovea
+/jnd
+
+# Test artifacts
+*.out
+*.test
+coverage.txt
+coverage.html
+
+# Go build cache (shouldn't be in repo, but just in case)
+vendor/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local env
+*.local
+.env
