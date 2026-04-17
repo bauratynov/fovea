@@ -1,13 +1,19 @@
-# Fovea — Perceptual JND Model for Video Coding
+<p align="center">
+  <img src="assets/logo.png" alt="Fovea" width="420">
+</p>
 
-[![CI](https://github.com/bauratynov/fovea/actions/workflows/ci.yml/badge.svg)](https://github.com/bauratynov/fovea/actions/workflows/ci.yml)
-[![Go Reference](https://pkg.go.dev/badge/github.com/bauratynov/fovea.svg)](https://pkg.go.dev/github.com/bauratynov/fovea)
-[![Go Report Card](https://goreportcard.com/badge/github.com/bauratynov/fovea)](https://goreportcard.com/report/github.com/bauratynov/fovea)
-[![Go Version](https://img.shields.io/github/go-mod/go-version/bauratynov/fovea)](https://go.dev)
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Stars](https://img.shields.io/github/stars/bauratynov/fovea?style=social)](https://github.com/bauratynov/fovea/stargazers)
+<h1 align="center">Fovea — Perceptual JND Model for Video Coding</h1>
 
-> *What the fovea can't see, the bitstream doesn't need to carry.*
+<p align="center">
+  <a href="https://github.com/bauratynov/fovea/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/bauratynov/fovea/actions/workflows/ci.yml/badge.svg"></a>
+  <a href="https://pkg.go.dev/github.com/bauratynov/fovea"><img alt="Go Reference" src="https://pkg.go.dev/badge/github.com/bauratynov/fovea.svg"></a>
+  <a href="https://goreportcard.com/report/github.com/bauratynov/fovea"><img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/bauratynov/fovea"></a>
+  <a href="https://go.dev"><img alt="Go Version" src="https://img.shields.io/github/go-mod/go-version/bauratynov/fovea"></a>
+  <a href="https://opensource.org/licenses/Apache-2.0"><img alt="License: Apache 2.0" src="https://img.shields.io/badge/License-Apache_2.0-blue.svg"></a>
+  <a href="https://github.com/bauratynov/fovea/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/bauratynov/fovea?style=social"></a>
+</p>
+
+<p align="center"><em>What the fovea can't see, the bitstream doesn't need to carry.</em></p>
 
 Fovea is a Just-Noticeable Difference (JND) model that predicts, for every
 pixel, the minimum luminance change detectable by the human visual system
